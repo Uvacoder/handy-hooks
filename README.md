@@ -1,25 +1,7 @@
-# New React Project Boilerplate
+# Useful React Hooks
 
-An alternative to using create-react-app with Parcel
+A collection of useful react hooks
 
-## How to use
+- useDataFetcher (Fetches data from a URL and handles loading, error state) [Source](https://codesandbox.io/s/fetching-data-in-reactjs-complete-guide-rup0i?file=/src/index.js:86-149)
+- useFormValidation (Validation for forms without the use of a library eg. Formik) [Source](https://codesandbox.io/s/vn5v04484y)
 
-### Clone
-
-```bash
-degit https://github.com/DarrenXu94/new-react-app
-```
-
-Degit removes all the repository git information.
-
-### Install
-
-```bash
-npm i
-```
-
-### Run
-
-```bash
-npm start
-```
