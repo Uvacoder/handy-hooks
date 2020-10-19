@@ -5,6 +5,7 @@ import LoginExample from './components/LoginExample';
 import UserStoreExample from './components/UserStoreExample';
 import { UserProvider } from './stores/UserStore';
 import ComplexUserStoreExample from './components/ComplexUserStoreExample';
+import ComplexSweetExample from './components/ComplexSweetExample';
 
 export default function App() {
 
@@ -16,9 +17,12 @@ export default function App() {
             <FetchRequestExample />
         <LoginExample /> */}
             {/* <UserStoreExample /> */}
-            <UserProvider>
+
+            {/* <UserProvider>
                 <ComplexUserStoreExample />
-            </UserProvider>
+            </UserProvider> */}
+
+            <ComplexSweetExample />
 
         </div>
     )

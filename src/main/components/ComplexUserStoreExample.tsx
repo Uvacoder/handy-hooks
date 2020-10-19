@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import useComplexUserStore from '../hooks/useComplexStore'
 
-const PostDiv = ({ post }) => {
+export const PostDiv = ({ post }) => {
     return <div>
         <div>
             <h3>Title</h3>
