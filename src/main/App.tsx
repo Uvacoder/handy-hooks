@@ -6,6 +6,7 @@ import UserStoreExample from './components/UserStoreExample';
 import { UserProvider } from './stores/UserStore';
 import ComplexUserStoreExample from './components/ComplexUserStoreExample';
 import ComplexSweetExample from './components/ComplexSweetExample';
+import MultipleRequests from './components/MultipleRequests';
 
 export default function App() {
 
@@ -22,7 +23,9 @@ export default function App() {
                 <ComplexUserStoreExample />
             </UserProvider> */}
 
-            <ComplexSweetExample />
+            {/* <ComplexSweetExample /> */}
+
+            <MultipleRequests />
 
         </div>
     )
